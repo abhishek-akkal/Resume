@@ -6,6 +6,14 @@ This is my personal resume website built using HTML. It showcases my skills, pro
 
 This project is a simple and clean resume website created using only HTML. The goal was to structure content properly and present my work in a professional format.
 
+---
+
+## 🌐 Live Demo
+
+https://abhishek-akkal-resume.vercel.app/
+
+---
+
 ## 🛠️ Tech Stack
 
 - HTML
@@ -26,9 +34,7 @@ This project is a simple and clean resume website created using only HTML. The g
 - **Wikipedia Clone (HTML)** – A simple Wikipedia-style page demonstrating the use of HTML tables and entities to display structured data.
 - **User Registration Form (HTML)** – A user registration form with multiple input fields and basic validation using HTML attributes, including email format and required fields.
 
-## 🌐 Live Demo
-
-[View Website](https://abhishek-akkal-resume.vercel.app/)
+---
 
 ## 📌 Future Improvements
 
