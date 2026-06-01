@@ -2,6 +2,8 @@
 
 This is my personal resume website built using HTML. It showcases my skills, projects, and learning journey as I work towards becoming a Full Stack Developer.
 
+---
+
 ## 🚀 About the Project
 
 This project is a simple and clean resume website created using only HTML. The goal was to structure content properly and present my work in a professional format.
