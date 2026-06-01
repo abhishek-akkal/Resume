@@ -20,6 +20,8 @@ https://abhishek-akkal-resume.vercel.app/
 
 - HTML
 
+---
+
 ## 📂 Features
 
 - Clean and structured resume layout
@@ -28,6 +30,8 @@ https://abhishek-akkal-resume.vercel.app/
 - Projects section with descriptions and links
 - Learning Journey section
 - Contact links (Email, LinkedIn, GitHub, X)
+
+---
 
 ## 📁 Projects Included
 
