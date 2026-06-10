@@ -1,4 +1,4 @@
-# Abhishek Akkal Resume Website
+# Abhishek Resume Website
 
 This is my personal resume website built using HTML. It showcases my skills, projects, and learning journey as I work towards becoming a Full Stack Developer.
 
