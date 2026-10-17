@@ -54,7 +54,7 @@ body {
 }
 
 .title {
-  font-size: 15.5px;
+  font-size: 14px;
   font-weight: 600;
   color: var(--color-accent);
   margin: 0;
@@ -111,33 +111,27 @@ body {
   max-width: 100%;
 }
 
-/* ---------- SKILLS ---------- */
+/* ---------- SKILLS (single-column list for ATS parsing) ---------- */
 
-.skills-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 32px;
-  row-gap: 8px;
-}
-
-.skill-group {
-  display: grid;
-  grid-template-columns: 108px 1fr;
-  column-gap: 10px;
-  align-items: baseline;
-}
-
-.skill-group h3 {
+.skills-list {
+  list-style: none;
   margin: 0;
-  font-size: 12.5px;
-  font-weight: 700;
-  color: var(--color-ink);
+  padding: 0;
 }
 
-.skill-group p {
-  margin: 0;
+.skills-list li {
   font-size: 13px;
   color: var(--color-body);
+  margin-bottom: 4px;
+}
+
+.skills-list li:last-child {
+  margin-bottom: 0;
+}
+
+.skills-list strong {
+  color: var(--color-ink);
+  font-weight: 700;
 }
 
 /* ---------- EDUCATION ---------- */
@@ -173,6 +167,8 @@ body {
 
 .project {
   margin-bottom: 14px;
+  break-inside: avoid;
+  page-break-inside: avoid;
 }
 
 .project:last-child {
@@ -241,7 +237,7 @@ body {
   font-weight: 700;
 }
 
-/* ---------- CODING & LEARNING ---------- */
+/* ---------- CODING & CONTINUOUS LEARNING ---------- */
 
 .learning-list {
   margin: 0;
@@ -281,34 +277,45 @@ body {
     gap: 2px;
   }
 
-  .skills-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .skill-group {
-    grid-template-columns: 130px 1fr;
+  .name {
+    font-size: 34px;
   }
 }
 
-/* ---------- PRINT ---------- */
+/* ---------- PRINT (A4) ---------- */
+
+@page {
+  size: A4;
+  margin: 13mm 14mm;
+}
 
 @media print {
+  html,
   body {
     background: var(--color-bg);
   }
 
   .resume {
     max-width: 100%;
-    padding: 0.35in 0.5in;
+    margin: 0;
+    padding: 0;
     box-shadow: none;
+  }
+
+  .section-title {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  .project-minor {
+    margin-bottom: 11px;
   }
 
   a {
     color: inherit !important;
   }
 
-  @page {
-    size: A4;
-    margin: 0;
+  .project-links a {
+    color: var(--color-accent) !important;
   }
 }

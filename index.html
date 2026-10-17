@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Abhishek Akkal — Frontend Developer Resume</title>
-    <meta name="description" content="Resume of Abhishek Akkal, Frontend Developer and React Developer" />
+    <title>Abhishek Akkal | Full Stack Developer Resume</title>
+    <meta name="description"
+        content="Resume of Abhishek Akkal, Full Stack Developer skilled in React.js, Node.js, Express.js, and MongoDB" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="icon" href="Favicon-icon.png">
@@ -22,7 +23,8 @@
         <header class="header">
             <div class="header-main">
                 <h1 class="name">Abhishek Akkal</h1>
-                <p class="title">Frontend Developer &nbsp;|&nbsp; React Developer</p>
+                <p class="title">Full Stack Developer &nbsp;|&nbsp; React.js &nbsp;|&nbsp; Node.js &nbsp;|&nbsp;
+                    Express.js &nbsp;|&nbsp; MongoDB</p>
             </div>
             <ul class="contact">
                 <li><a href="tel:+917058073695">+91 7058073695</a></li>
@@ -31,7 +33,6 @@
                         rel="noopener noreferrer">linkedin.com/in/abhishek-akkal</a></li>
                 <li><a href="https://github.com/abhishek-akkal" target="_blank"
                         rel="noopener noreferrer">github.com/abhishek-akkal</a></li>
-                <li><a href="#" target="_blank" rel="noopener noreferrer">Portfolio (coming soon)</a></li>
                 <li>Pune, Maharashtra, India</li>
             </ul>
         </header>
@@ -40,40 +41,27 @@
         <section class="section">
             <h2 class="section-title">Professional Summary</h2>
             <p class="summary">
-                Final-year BCA student and Frontend Developer with hands-on experience building responsive,
-                component-based web applications using HTML, CSS, JavaScript, React, and Tailwind CSS.
-                Skilled in consuming REST and GraphQL APIs, managing client-side routing with React Router,
-                and translating designs into clean, maintainable UI. Comfortable working independently
-                across the full frontend build process, from component architecture to deployment, and
-                currently expanding into full stack development with Node.js, Express, and MongoDB.
+                Full Stack Developer and BCA student with hands-on experience building responsive web applications
+                using React.js, JavaScript, Node.js, Express.js, and MongoDB. Experienced in developing REST APIs,
+                integrating databases, implementing image uploads with cloud storage, and deploying web applications
+                using Vercel. Focused on writing clean, maintainable code and building practical, end-to-end web
+                solutions.
             </p>
         </section>
 
         <!-- TECHNICAL SKILLS -->
         <section class="section">
             <h2 class="section-title">Technical Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-group">
-                    <h3>Languages</h3>
-                    <p>HTML5, CSS3, JavaScript (ES6+)</p>
-                </div>
-                <div class="skill-group">
-                    <h3>Frontend</h3>
-                    <p>React.js, Tailwind CSS, React Router, Responsive Web Design, Component-Based Development</p>
-                </div>
-                <div class="skill-group">
-                    <h3>API</h3>
-                    <p>REST APIs, GraphQL APIs</p>
-                </div>
-                <div class="skill-group">
-                    <h3>Tools</h3>
-                    <p>Git, GitHub, VS Code, Vite, npm</p>
-                </div>
-                <div class="skill-group">
-                    <h3>Currently Learning</h3>
-                    <p>Data Structures &amp; Algorithms, Node.js, Express.js, MongoDB</p>
-                </div>
-            </div>
+            <ul class="skills-list">
+                <li><strong>Languages:</strong> JavaScript (ES6+), HTML5, CSS3</li>
+                <li><strong>Frontend Development:</strong> React.js, Tailwind CSS, React Router, Responsive Web Design,
+                    Component-Based Architecture, Vite</li>
+                <li><strong>Backend Development:</strong> Node.js, Express.js, REST API Development, Middleware, HTTP
+                    Methods, Request and Response Handling</li>
+                <li><strong>Database and Data Storage:</strong> MongoDB, MongoDB Atlas, Mongoose, ImageKit</li>
+                <li><strong>API Integration:</strong> REST APIs, GraphQL, Axios, Fetch API, WeatherAPI</li>
+                <li><strong>Tools and Deployment:</strong> Git, GitHub, Postman, Visual Studio Code, npm, Vercel</li>
+            </ul>
         </section>
 
         <!-- EDUCATION -->
@@ -94,7 +82,33 @@
 
             <article class="project">
                 <div class="project-row">
-                    <h3>AnimeVerse</h3>
+                    <h3>Moment — Full Stack Image Sharing Platform</h3>
+                    <span class="project-links">
+                        <a href="https://github.com/abhishek-akkal/Moment-full-stack-project" target="_blank"
+                            rel="noopener noreferrer">GitHub</a>
+                        <span class="dot">·</span>
+                        <a href="https://moment-full-stack-project.vercel.app/" target="_blank"
+                            rel="noopener noreferrer">Live Demo</a>
+                    </span>
+                </div>
+                <p class="project-desc">Developed a full-stack image-sharing platform that allows users to upload
+                    images, add captions, and browse a dynamic feed of posts.</p>
+                <ul>
+                    <li>Built a responsive React frontend with reusable components and dedicated home, create-post,
+                        and feed pages.</li>
+                    <li>Developed Express.js API endpoints to process image uploads and retrieve posts.</li>
+                    <li>Integrated Multer for multipart file handling and ImageKit for cloud image storage.</li>
+                    <li>Connected MongoDB using Mongoose to store post captions and image URLs.</li>
+                    <li>Integrated the frontend with backend APIs using Axios and implemented newest-first post
+                        ordering.</li>
+                </ul>
+                <p class="project-tech"><strong>Technologies:</strong> React.js, JavaScript, Tailwind CSS, React Router,
+                    Axios, Vite, Node.js, Express.js, MongoDB Atlas, Mongoose, Multer, ImageKit</p>
+            </article>
+
+            <article class="project">
+                <div class="project-row">
+                    <h3>AnimeVerse — Anime Discovery Platform</h3>
                     <span class="project-links">
                         <a href="https://github.com/abhishek-akkal/AnimeVerse-" target="_blank"
                             rel="noopener noreferrer">GitHub</a>
@@ -103,22 +117,46 @@
                             Demo</a>
                     </span>
                 </div>
-                <p class="project-desc">Built a modern anime discovery platform using React and the AniList GraphQL API
-                    to deliver real-time anime data through a responsive and component-based user interface.</p>
+                <p class="project-desc">Built a responsive anime discovery platform using React.js and the AniList
+                    GraphQL API to retrieve and display anime information.</p>
                 <ul>
-                    <li>Developed reusable React components for trending, popular, movies, series, genres, search, and
+                    <li>Integrated the AniList GraphQL API to retrieve anime data.</li>
+                    <li>Developed reusable React components for anime discovery, search, genres, trending content, and
                         anime details.</li>
-                    <li>Integrated the AniList GraphQL API to fetch and display real-time anime information.</li>
-                    <li>Built a responsive streaming-inspired UI using Tailwind CSS and React Router with optimized
-                        project structure.</li>
+                    <li>Implemented client-side navigation and responsive layouts using React Router and Tailwind CSS.
+                    </li>
                 </ul>
-                <p class="project-tech"><strong>Tech:</strong> React, Tailwind CSS, JavaScript, GraphQL, React Router,
-                    Vite</p>
+                <p class="project-tech"><strong>Technologies:</strong> React.js, JavaScript, Tailwind CSS, React Router,
+                    GraphQL, AniList API, Vite</p>
             </article>
 
             <article class="project">
                 <div class="project-row">
-                    <h3>Maison Café</h3>
+                    <h3>Weather App — Real-Time Weather Dashboard</h3>
+                    <span class="project-links">
+                        <a href="https://github.com/abhishek-akkal/Weather-App-" target="_blank"
+                            rel="noopener noreferrer">GitHub</a>
+                        <span class="dot">·</span>
+                        <a href="https://weather-app-me8o-six.vercel.app/" target="_blank"
+                            rel="noopener noreferrer">Live Demo</a>
+                    </span>
+                </div>
+                <p class="project-desc">Developed a responsive weather application that provides current weather
+                    conditions, forecasts, and detailed weather information through WeatherAPI integration.</p>
+                <ul>
+                    <li>Implemented city-based weather search with real-time conditions, hourly forecasts, and
+                        seven-day forecasts.</li>
+                    <li>Displayed humidity, wind speed, visibility, air pressure, chance of rain, sunrise and sunset
+                        times, and air-quality information.</li>
+                    <li>Implemented dynamic weather backgrounds and day/night handling in a responsive interface.</li>
+                </ul>
+                <p class="project-tech"><strong>Technologies:</strong> React.js, JavaScript, Tailwind CSS, React Icons,
+                    WeatherAPI, Vite</p>
+            </article>
+
+            <article class="project">
+                <div class="project-row">
+                    <h3>Maison Café — Responsive Café Website</h3>
                     <span class="project-links">
                         <a href="https://github.com/abhishek-akkal/Maison-Caf-" target="_blank"
                             rel="noopener noreferrer">GitHub</a>
@@ -127,38 +165,18 @@
                             Demo</a>
                     </span>
                 </div>
-                <p class="project-desc">Designed and developed a modern multi-page café website focused on responsive
-                    layouts, reusable React components, and an engaging user experience.</p>
+                <p class="project-desc">Designed and developed a responsive multi-page café website with reusable
+                    components, organized navigation, and a consistent user interface.</p>
                 <ul>
                     <li>Created dedicated Coffee, Cake, Ice Cream, About Us, and Sign In pages.</li>
-                    <li>Built reusable components and smooth navigation using React Router.</li>
-                    <li>Improved responsive design and UI consistency using Tailwind CSS.</li>
+                    <li>Implemented reusable React components and navigation with React Router.</li>
+                    <li>Improved responsive layouts and visual consistency using Tailwind CSS.</li>
                 </ul>
-                <p class="project-tech"><strong>Tech:</strong> React, Tailwind CSS, React Router, JavaScript, Vite</p>
+                <p class="project-tech"><strong>Technologies:</strong> React.js, JavaScript, Tailwind CSS, React Router,
+                    Vite</p>
             </article>
 
-            <article class="project">
-                <div class="project-row">
-                    <h3>ThemeVerse</h3>
-                    <span class="project-links">
-                        <a href="https://github.com/abhishek-akkal/Theme-Verse" target="_blank"
-                            rel="noopener noreferrer">GitHub</a>
-                        <span class="dot">·</span>
-                        <a href="https://theme-verse-1x33.vercel.app/" target="_blank" rel="noopener noreferrer">Live
-                            Demo</a>
-                    </span>
-                </div>
-                <p class="project-desc">Developed a modern React application that enables users to switch between
-                    multiple themes in real time using dynamic state management.</p>
-                <ul>
-                    <li>Implemented multiple themes using React state.</li>
-                    <li>Built reusable UI components with responsive layouts.</li>
-                    <li>Practiced conditional rendering, dynamic styling, and component-based architecture.</li>
-                </ul>
-                <p class="project-tech"><strong>Tech:</strong> React, Tailwind CSS, React Router, JavaScript, Vite</p>
-            </article>
-
-            <article class="project">
+            <article class="project project-minor">
                 <div class="project-row">
                     <h3>Currency Converter</h3>
                     <span class="project-links">
@@ -169,38 +187,38 @@
                             rel="noopener noreferrer">Live Demo</a>
                     </span>
                 </div>
-                <p class="project-desc">Built a responsive currency converter that retrieves real-time exchange rates
-                    using an external REST API.</p>
+                <p class="project-desc">Built a responsive currency converter that retrieves exchange-rate information
+                    from an external API.</p>
                 <ul>
                     <li>Integrated API data using the Fetch API.</li>
                     <li>Implemented dynamic currency selection and country flags.</li>
-                    <li>Improved DOM manipulation and asynchronous JavaScript skills.</li>
+                    <li>Used asynchronous JavaScript and DOM manipulation to update conversion results.</li>
                 </ul>
-                <p class="project-tech"><strong>Tech:</strong> HTML, CSS, JavaScript, REST API</p>
+                <p class="project-tech"><strong>Technologies:</strong> HTML5, CSS3, JavaScript, REST API</p>
             </article>
 
-            <article class="project">
+            <article class="project project-minor">
                 <div class="project-row">
                     <h3>Neumorphic Calculator</h3>
                     <span class="project-links">
                         <a href="https://github.com/abhishek-akkal/Neumorphic-Calculator" target="_blank"
                             rel="noopener noreferrer">GitHub</a>
                         <span class="dot">·</span>
-                        <a href="https://social-nest-m39k.vercel.app/" target="_blank" rel="noopener noreferrer">Live
-                            Demo</a>
+                        <a href="https://abhishek-akkal.github.io/Neumorphic-Calculator/" target="_blank"
+                            rel="noopener noreferrer">Live Demo</a>
                     </span>
                 </div>
-                <p class="project-desc">Developed a responsive calculator featuring a modern neumorphic design with an
-                    interactive user experience.</p>
+                <p class="project-desc">Developed a responsive calculator featuring a neumorphic interface and
+                    interactive calculation functionality.</p>
                 <ul>
-                    <li>Implemented calculator logic using JavaScript.</li>
-                    <li>Added dark/light mode, responsive layout, and input validation.</li>
-                    <li>Improved DOM manipulation and UI development skills.</li>
+                    <li>Implemented calculator operations using JavaScript.</li>
+                    <li>Added dark/light mode and responsive styling.</li>
+                    <li>Practiced DOM manipulation, event handling, and interactive UI development.</li>
                 </ul>
-                <p class="project-tech"><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+                <p class="project-tech"><strong>Technologies:</strong> HTML5, CSS3, JavaScript</p>
             </article>
 
-            <article class="project">
+            <article class="project project-minor">
                 <div class="project-row">
                     <h3>Tic Tac Toe</h3>
                     <span class="project-links">
@@ -211,23 +229,24 @@
                             rel="noopener noreferrer">Live Demo</a>
                     </span>
                 </div>
-                <p class="project-desc">Built an interactive two-player Tic Tac Toe game using JavaScript.</p>
+                <p class="project-desc">Built an interactive two-player Tic Tac Toe game with game-state handling and
+                    winner detection.</p>
                 <ul>
-                    <li>Implemented game logic and winner detection.</li>
-                    <li>Added restart functionality with responsive design.</li>
-                    <li>Strengthened understanding of DOM manipulation and state management.</li>
+                    <li>Implemented game logic and winning-condition detection.</li>
+                    <li>Added restart functionality.</li>
+                    <li>Created a responsive interface using HTML, CSS, and JavaScript.</li>
                 </ul>
-                <p class="project-tech"><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+                <p class="project-tech"><strong>Technologies:</strong> HTML5, CSS3, JavaScript</p>
             </article>
         </section>
 
-        <!-- CODING & LEARNING -->
+        <!-- CODING & CONTINUOUS LEARNING -->
         <section class="section section-last">
-            <h2 class="section-title">Coding &amp; Learning</h2>
+            <h2 class="section-title">Coding &amp; Continuous Learning</h2>
             <ul class="learning-list">
-                <li>Consistently practicing Data Structures &amp; Algorithms to strengthen problem-solving skills.</li>
-                <li>Actively building projects to deepen frontend development knowledge and best practices.</li>
-                <li>Regularly sharing learning progress and projects with the developer community.</li>
+                <li>Regularly practice Data Structures and Algorithms to strengthen problem-solving skills.</li>
+                <li>Build practical web applications to improve software development and debugging skills.</li>
+                <li>Use Git and GitHub to manage and share project work.</li>
             </ul>
         </section>
 
