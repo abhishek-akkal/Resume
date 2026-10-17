@@ -313,6 +313,11 @@ body {
 
   a {
     color: inherit !important;
+    text-decoration: none !important;
+  }
+
+  .contact li a {
+    color: var(--color-muted) !important;
   }
 
   .project-links a {
