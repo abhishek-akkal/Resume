@@ -1,0 +1,6 @@
+# Playwright PDF generation files
+node_modules/
+package.json
+package-lock.json
+generate-pdf.js
+Abhishek_Akkal_Full_Stack_Developer_Resume.pdf
